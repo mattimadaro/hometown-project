@@ -1,0 +1,223 @@
+/**
+Gold Fusion: #717351
+Dark Sky Blue: #96C0D9
+Carolina Blue: #549AD5
+Dark Moss Green: #435C29
+Phtalo Green: #142509
+
+*/
+
+body {
+    margin: 0px;
+    text-align: center;
+    font-family: 'Original Surfer', cursive;
+}
+
+
+/*Hero Section*/
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    background-image: url("images/pg.png");
+    background-size: cover;
+    width: 720px;
+    height: 343px;
+    margin: 0 auto;
+}
+
+.hero-heading{
+    background: #435C29;
+    border-radius: 10px;
+    padding: 5px 12px;
+    margin: 40px 350px 10px 0px;   
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 37px;
+    transform: rotate(-10deg);
+    opacity: 0.8;
+    box-shadow: 0px 0px 5px black;
+}
+
+.hero-subheading{
+    background: #717351;
+    border-radius: 10px;
+    padding: 5px 28px;
+    width: 355px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18.72px;
+    line-height: 22px;   
+    margin: 0px 250px 60px 0px;
+    transform: rotate(-10deg);
+    opacity: 0.8;
+    box-shadow: 0px 0px 5px black;
+}
+
+
+/*Activities Section*/
+
+.activities{
+    width: 720px;
+    height: 343px;
+    background: #549AD5; 
+    margin: 0 auto;
+    color: #FFFFFF;  
+    font-size: 16px;
+    line-height: 18px;  
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    text-shadow: 0px 0px 2px black;
+}
+
+.choices{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;   
+}
+
+.locations{
+    width: 198px;
+    height: 226px;
+    margin: 10px 20px;
+}
+
+.locations img{
+    border-radius: 50%;
+    box-shadow: 0px 0px 5px black;
+}
+
+
+/* Guide Section */
+
+.guide{
+    width: 720px;
+    background: #FFFFFF;
+    margin:0 auto;  
+}
+
+.card{
+    display: flex;
+    width: 450px;
+    height: 294px;
+    background: #717351;
+    box-shadow: 0px 6px 5px #142509;
+    border-radius: 10px;
+    margin: 50px auto;
+    color:  #FFFFFF;
+}
+
+.card img{
+    width: 224px;
+    height: 256px;
+    border-radius: 10px;
+    margin: 23px 0px 22.33px 13px;
+}
+
+.desc-guide h3{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;  
+    width: 207px;
+    height: 32px;   
+    margin: 49px 4px 0px -4px;
+}
+
+.desc-guide p{
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    width: 189px;
+    height: 71px;
+    margin: 9px 11px 0px 7px;
+}
+
+.desc-guide h4{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    width: 189px;
+    height: 18px;
+    margin: 31px 0px 13px 5px;
+}
+
+
+/* Contact Section */
+
+.contact{
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    width: 720px;
+    height: 350px;
+    margin: 0 auto;
+    background: #549AD5;
+    color: #FFFFFF; 
+    text-shadow: 0px 0px 2px black;
+    padding-top: 10px;
+}
+
+.cta{
+    width: 300px;
+    display: flex;
+    flex-direction: column;   
+    align-items: center;
+}
+
+#hint{
+    margin-top: 0px;
+}
+
+.btn{
+    border-radius: 50px;
+    border: 1px solid #717351;
+    box-shadow: 0px 0px 0px #717351;
+    color: #FFFFFF; 
+    text-decoration: none;
+    padding: 10px 50px;
+    font-weight: bold;
+    background: #717351;
+    transition: ease .3s;
+}
+
+.btn:hover{
+    box-shadow: 3px 3px 2px #222222;
+}
+
+.contact-img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact img{
+    width: 140px;
+    margin: px; 
+    border: 3px solid white;
+    margin: 5px;
+}
+
+.presentation-img{
+    transition: ease, .5s;
+    box-shadow: 0px 0px 3px grey;
+    border-radius: 10px;
+}
+
+.presentation-img:hover{
+    transform: scale(1.5) rotate(-5deg);
+    opacity: 1;   
+    position: relative;
+    border: 5px solid white;
+    box-shadow: 0px 0px 3px grey;  
+}
+
+img {
+    width: 110px;
+}
